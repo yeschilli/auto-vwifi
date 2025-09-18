@@ -11,7 +11,7 @@ Never login to VIT Wi-Fi again!
 
 Auto VIT Wi-Fi is a sleek browser extension that detects if you're connected to VIT Wi-Fi and automatically logs in to the network portal on startup ensuring that you're always connected to VIT Wi-Fi.
 
-<video class="ignore" src="https://files.catbox.moe/6cnw53.mp4"></video>
+<video src="https://files.catbox.moe/6cnw53.mp4"></video>
 
 ***
 
