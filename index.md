@@ -1,4 +1,3 @@
-
 <div align="center">
     <img src="https://files.catbox.moe/tzk1xp.png"  alt="Auto VIT Wi-Fi"/>
     <span style="color: #BD5CBF"><h1>Auto VIT Wi-Fi</h1></span>
@@ -53,6 +52,9 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<
 Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 
 ## Support
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<a class="github-button" href="https://github.com/nochilli/auto-vwifi" data-color-scheme="no-preference: light; light: light; dark: dark_dimmed;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star nochilli/auto-vwifi on GitHub">Star nochilli/auto-vwifi </a>
 
 Found a bug? [Create an issue](https://github.com/nochilli/auto-vwifi/issues)
 
