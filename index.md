@@ -4,9 +4,9 @@
     <h1>Auto VIT Wi-Fi</h1>
     <h3>VIT Network Portal Autologin</h3>
 <hr>
-<h4>Never login to VIT Wi-Fi again!</h4> <br>
+<h4>Never login to VIT Wi-Fi again!</h4>
 <p>
-Auto VIT Wi-Fi is a sleek browser extension that detects if you're connected to VIT Wi-Fi and automatically logs in to the network portal on startup ensuring that you're always connected to VIT Wi-Fi.
+Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<br>and automatically logs in to the network portal on startup ensuring that you're always connected to VIT Wi-Fi!
 
 </p>
 
@@ -37,7 +37,7 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're connected to 
 
 ## Installation
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/auto-vwifi"><img src="https://files.catbox.moe/86st48.png" alt="Firefox" width="240" height="80"/></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/auto-vwifi"><img src="https://files.catbox.moe/86st48.png" alt="Firefox" width="240" height="80"/></a><br>
 <a href="https://addons.opera.com/en/extensions/details/auto-vwifi/"><img src="https://files.catbox.moe/49ss6l.png" alt="Opera" width="240" height="80"/></a> 
 
 ## Privacy & Security
