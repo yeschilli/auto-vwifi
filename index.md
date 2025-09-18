@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://files.catbox.moe/tzk1xp.png"  alt="Auto VIT Wi-Fi"/>
-    <span style="color: #BD5CBF"><h1>Auto VIT Wi-Fi</h1></span>
+    <h1 style="color: #BD5CBF">Auto VIT Wi-Fi</h1>
     <h3>VIT Network Portal Autologin</h3>
 <hr>
 <h4>Never login to VIT Wi-Fi again!</h4>
