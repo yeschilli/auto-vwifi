@@ -36,7 +36,7 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<
 
 ## Installation
 
-<a style="gap:10px" href="https://addons.mozilla.org/en-US/firefox/addon/auto-vwifi"><img src="https://files.catbox.moe/86st48.png" alt="Firefox" width="240" height="80"/></a>&nbsp
+<a style="gap:10px" href="https://addons.mozilla.org/en-US/firefox/addon/auto-vwifi"><img src="https://files.catbox.moe/86st48.png" alt="Firefox" width="240" height="80"/></a>
 <a style="gap:10px" href="https://addons.opera.com/en/extensions/details/auto-vwifi/"><img src="https://files.catbox.moe/49ss6l.png" alt="Opera" width="240" height="80"/></a> 
 
 ## Privacy & Security
