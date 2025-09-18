@@ -4,8 +4,8 @@
     <h1>Auto VIT Wi-Fi</h1>
     <h3>VIT Network Portal Autologin</h3>
 <hr>
-<p>Never login to VIT Wi-Fi again! <br>
-
+<h4>Never login to VIT Wi-Fi again!</h4> <br>
+<p>
 Auto VIT Wi-Fi is a sleek browser extension that detects if you're connected to VIT Wi-Fi and automatically logs in to the network portal on startup ensuring that you're always connected to VIT Wi-Fi.
 
 </p>
@@ -37,9 +37,8 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're connected to 
 
 ## Installation
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/auto-vwifi"><img src="https://files.catbox.moe/86st48.png" alt="Firefox" height="80"/></a>
-<a href="https://addons.opera.com/en/extensions/details/auto-vwifi/"><img src="https://files.catbox.moe/49ss6l.png" alt="Opera" height="80"/></a> 
-
+<a href="https://addons.mozilla.org/en-US/firefox/addon/auto-vwifi"><img src="https://files.catbox.moe/86st48.png" alt="Firefox" width="240" height="80"/></a>
+<a href="https://addons.opera.com/en/extensions/details/auto-vwifi/"><img src="https://files.catbox.moe/49ss6l.png" alt="Opera" width="240" height="80"/></a> 
 
 ## Privacy & Security
 
@@ -49,16 +48,6 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're connected to 
 
 - All communication is directly with the VOLSBB authentication server
 
-## Contributing
-
-Open a Pull Request
-
-## Credits
-
-- Icons from [Tabler](https://tabler.io/icons)
-
-- Forked from [cybergla/pronto-auto-login/](https://github.com/cybergla/pronto-auto-login/)
-
 ## License
 
 Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
@@ -66,3 +55,9 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 ## Support
 
 Found a bug? [Create an issue](https://github.com/nochilli/auto-vwifi/issues)
+
+## Credits
+
+- Icons from [Tabler](https://tabler.io/icons)
+
+- Forked from [cybergla/pronto-auto-login/](https://github.com/cybergla/pronto-auto-login/)
