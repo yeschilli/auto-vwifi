@@ -60,6 +60,6 @@ Found a bug? [Create an issue](https://github.com/nochilli/auto-vwifi/issues)
 
 - Icons: [Tabler](https://tabler.io/icons)
 
-- Logo: [Freepik](https://www.freepik.com/)
+- Logo: [Freepik](https://www.freepik.com/icons)
 
 - Forked from [cybergla/pronto-auto-login/](https://github.com/cybergla/pronto-auto-login/)
