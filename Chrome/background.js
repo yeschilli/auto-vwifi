@@ -1,7 +1,7 @@
-chrome.runtime.onInstalled.addListener(function(details) {
-  if (details.reason === "install") {
-    chrome.tabs.create({ url: "https://nochilli.github.io/auto-vwifi/" });
-  }
+chrome.runtime.onInstalled.addListener(function (details) {
+	if (details.reason === "install") {
+		chrome.tabs.create({ url: "https://nochilli.github.io/auto-vwifi/" });
+	}
 });
 
 chrome.runtime.onStartup.addListener(function () {
@@ -20,6 +20,27 @@ chrome.runtime.onMessage.addListener(function (request) {
 	}
 });
 
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+	chrome.tabs.query(
+		{
+			active: true,
+			currentWindow: true,
+		},
+		(tabs) => {
+			if (
+				changeInfo.url &&
+				tabId === tabs[0].id &&
+				changeInfo.url ===
+					"http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://example.com"
+			) {
+				var sessionLink = document.getElementsByClassName("button").url;
+				console.log(document.getElementsByClassName("button"));
+				let redirectUrl = chrome.runtime.getURL("success.html");
+				browser.tabs.update(tabId, { url: redirectUrl });
+			}
+		}
+	);
+});
 
 var opt_login_timeout = {
 	type: "basic",

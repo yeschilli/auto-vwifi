@@ -20,7 +20,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["font/*.woff2"],
+      "resources": ["font/*.woff2", "success.html"],
       "matches": ["<all_urls>"]
     }
   ],
