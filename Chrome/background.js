@@ -18,12 +18,41 @@ chrome.runtime.onMessage.addListener(function (request) {
 	if (request.logout == true) {
 		logout();
 	}
+	if (request.ready == true) {
+		checkTabs((tab) => {
+			if (tab) {
+				const redirectUrl = chrome.runtime.getURL("success.html");
+				chrome.tabs.update(tab.id, { url: redirectUrl }, () => {
+					if (chrome.runtime.lastError) {
+						console.error("Failed to redirect tab:", chrome.runtime.lastError);
+					}
+				});
+			}
+		});
+	}
 });
+
+function checkTabs(callback) {
+	let queryOptions = {
+		url: "*://phc.prontonetworks.com/cgi-bin/authlogin?URI=*://example.com",
+	};
+	chrome.tabs.query(queryOptions, ([tab]) => {
+		if (chrome.runtime.lastError) console.error(chrome.runtime.lastError);
+		callback(tab);
+	});
+}
 
 var opt_login_timeout = {
 	type: "basic",
 	title: "⛔ Request Timed Out",
 	message: "Please check your connection or try again later",
+	iconUrl: "/assets/icon128.png",
+};
+
+var opt_other_network = {
+	type: "basic",
+	title: "⛔ You're Not Connected To VIT Wi-Fi!",
+	message: "Auto VIT Wi-Fi only works when connected to VIT Wi-Fi",
 	iconUrl: "/assets/icon128.png",
 };
 
@@ -101,6 +130,7 @@ function logout() {
 			}
 		})
 		.catch((error) => {
+			console.log(error)
 			if (error.name === "TypeError") {
 				chrome.runtime.sendMessage({ network_error: true });
 				return 0;
@@ -205,15 +235,12 @@ function login(firstRun, formUser, formPassword) {
 
 chrome.webRequest.onErrorOccurred.addListener(
 	function (details) {
-		if (details.error == "net::ERR_INTERNET_DISCONNECTED") {
+		if (details.error == "net::ERR_INTERNET_DISCONNECTED")
 			showNotification("id_no_wifi", opt_no_wifi);
-		}
-		if (details.error == "net::ERR_NETWORK_CHANGED") {
+		else if (details.error == "net::ERR_NETWORK_CHANGED")
 			showNotification("id_net_changed", opt_network_changed);
-		}
-		if (details.error == "net::ERR_NAME_NOT_RESOLVED") {
+		else if (details.error == "net::ERR_NAME_NOT_RESOLVED")
 			showNotification("id_name_not_resolved", opt_name_not_resolved);
-		}
 	},
 	{
 		urls: ["*://*/*"],
