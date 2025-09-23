@@ -1,5 +1,5 @@
 function setStatus(val) {
-	document.querySelector('h5').textContent = val;
+	document.querySelector("h5").textContent = val;
 }
 
 document.addEventListener(
@@ -61,11 +61,10 @@ document.addEventListener(
 		// power button
 		enableButton.addEventListener("click", function () {
 			enabled = enabled == "#77d458" ? "#e77979" : "#77d458";
-      console.log(enabled);
 			chrome.storage.local.set({ enable: enabled });
 			document.getElementById("enable").style.backgroundColor = enabled;
 
-			if (enabled==="#77d458") setStatus("✅ Autologin Enabled");
+			if (enabled === "#77d458") setStatus("✅ Autologin Enabled");
 			else setStatus("⛔ Autologin Disabled");
 		});
 	},
