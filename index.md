@@ -13,7 +13,7 @@
 	<h1 style="color: var(--pico-primary)">Auto VIT Wi-Fi</h1>
 	<h3>Never login to VIT Wi-Fi again!</h3>
 	<hr />
-	<div id="txt" width="1000">
+	<div id="txt" style="max-width: 1000px">
 		<p>
 			Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT
 			Wi-Fi and automatically logs in to the network portal on startup ensuring
@@ -77,6 +77,7 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 - Logo: [Freepik](https://www.freepik.com/icons)
 
 - Based on [pronto-auto-login](https://github.com/cybergla/pronto-auto-login/)
+
 
 
 
