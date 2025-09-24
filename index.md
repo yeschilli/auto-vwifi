@@ -9,8 +9,8 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<
 
 </p>
 
-<video align="center" width="385" height="400" autoplay controls muted>
-<source src="https://github.com/user-attachments/assets/f8695551-6d63-4f02-9f24-0daa1033aee5" type="video/mp4">
+<video align="center" width="800" height="540" autoplay controls muted>
+<source src="https://files.catbox.moe/nbcrtd.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -34,6 +34,8 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<
 
 - ⚡ Automatic form filling
 
+- 🪪 Custom Success Screen
+
 ## Installation
 
 <a style="gap:10px" href="https://addons.mozilla.org/en-US/firefox/addon/auto-vwifi"><img src="https://files.catbox.moe/86st48.png" alt="Firefox" width="240" height="80"/></a>
@@ -43,9 +45,9 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<
 
 - Credentials are stored locally in the browser's secure storage
 
+- Communication only with VIT's authentication server
+  
 - No data is transmitted to external servers
-
-- All communication is directly with the VOLSBB authentication server
 
 ## License
 
@@ -63,5 +65,6 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 
 - Logo: [Freepik](https://www.freepik.com/icons)
 
-- Forked from [cybergla/pronto-auto-login/](https://github.com/cybergla/pronto-auto-login/)
+- Based on [pronto-auto-login](https://github.com/cybergla/pronto-auto-login/)
+
 
