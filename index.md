@@ -10,7 +10,7 @@ Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<
 </p>
 
 <video align="center" width="385" height="400" autoplay controls muted>
-<source src="https://files.catbox.moe/6cnw53.mp4" type="video/mp4">
+<source src="https://github.com/user-attachments/assets/f8695551-6d63-4f02-9f24-0daa1033aee5" type="video/mp4">
 </video>
 </div>
 
@@ -64,3 +64,4 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 - Logo: [Freepik](https://www.freepik.com/icons)
 
 - Forked from [cybergla/pronto-auto-login/](https://github.com/cybergla/pronto-auto-login/)
+
