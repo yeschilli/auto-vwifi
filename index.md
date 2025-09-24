@@ -1,24 +1,25 @@
-<div align="center">
-    <img src="https://files.catbox.moe/tzk1xp.png"  alt="Auto VIT Wi-Fi"/>
-    <h1 style="color: var(--pico-primary)">Auto VIT Wi-Fi</h1>
-    <h3>Never login to VIT Wi-Fi again!</h3>
-<hr>
-    <div id="txt">
-<p>
-Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi and automatically logs in to the network portal on startup ensuring you're always connected to VIT Wi-Fi!
-    </div>
-</p>
-    
 <style>
-@media (max-width: 600px) {
-  #vid, #txt {
-    width: 400px !important;
-    height: auto;
-  }
-    
-}
+    @media (max-width: 600px) {
+        #vid,
+        #txt {
+            width: 400px !important;
+            height: auto;
+        }
+    }
 </style>
 
+<div align="center">
+	<img src="https://files.catbox.moe/tzk1xp.png" alt="Auto VIT Wi-Fi" />
+	<h1 style="color: var(--pico-primary)">Auto VIT Wi-Fi</h1>
+	<h3>Never login to VIT Wi-Fi again!</h3>
+	<hr />
+	<div id="txt" width="1000">
+		<p>
+			Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT
+			Wi-Fi and automatically logs in to the network portal on startup ensuring
+			you're always connected to VIT Wi-Fi!
+		</p>
+	</div>
 <video id="vid" align="center" width="800" height="540" autoplay controls muted>
 <source src="https://files.catbox.moe/nbcrtd.mp4" type="video/mp4">
 </video>
@@ -76,6 +77,7 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 - Logo: [Freepik](https://www.freepik.com/icons)
 
 - Based on [pronto-auto-login](https://github.com/cybergla/pronto-auto-login/)
+
 
 
 
