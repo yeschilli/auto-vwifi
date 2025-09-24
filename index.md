@@ -29,23 +29,21 @@
 
 ## Features
 
-- 🌓 Dark & Light Themes
-
-- 🔋 Toggle Extension On / Off
-
-- 🚀 Fully Automated Login to VOLSBB
-
-- 🔒 Securely Stored Credentials
-
 - 📱 Sleek, Modern UI
 
-- 🔄️ Live status display
-  
-- 🔔 Desktop Notifications On Error
+- 🚀 Fully Automated Login Process 
 
-- ⚡ Automatic form filling
+- 🔄️ Live Status Display
 
 - 🪪 Custom Success Screen
+
+- 🌓 Dark & Light Themes
+
+- 🔒 Securely Stored Credentials
+  
+- 🔋 Toggle Extension On / Off
+  
+- 🔔 Notification On Error
 
 ## Installation
 
@@ -54,11 +52,11 @@
 
 ## Privacy & Security
 
-- Credentials are stored locally in the browser's secure storage
+- Credentials stored securely in the browser's local storage
 
 - Communication only with VIT's authentication server
   
-- No data is transmitted to external servers
+- Zero data transmitted to external servers
 
 ## License
 
@@ -77,9 +75,3 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 - Logo: [Freepik](https://www.freepik.com/icons)
 
 - Based on [pronto-auto-login](https://github.com/cybergla/pronto-auto-login/)
-
-
-
-
-
-
