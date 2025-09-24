@@ -7,9 +7,18 @@
 <p>
 Auto VIT Wi-Fi is a sleek browser extension that detects if you're on VIT Wi-Fi<br>and automatically logs in to the network portal on startup ensuring that you're always connected to VIT Wi-Fi!
 
+<style>
+@media (max-width: 600px) {
+  #vid {
+    width: 400px !important;
+    height: auto;
+  }
+}
+</style>
+
 </p>
 
-<video align="center" width="800" height="540" autoplay controls muted>
+<video id="vid" align="center" width="800" height="540" autoplay controls muted>
 <source src="https://files.catbox.moe/nbcrtd.mp4" type="video/mp4">
 </video>
 </div>
@@ -66,5 +75,6 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 - Logo: [Freepik](https://www.freepik.com/icons)
 
 - Based on [pronto-auto-login](https://github.com/cybergla/pronto-auto-login/)
+
 
 
