@@ -20,9 +20,10 @@
 			you're always connected to VIT Wi-Fi!
 		</p>
 	</div>
-<video id="vid" align="center" width="800" height="540" autoplay controls muted>
-<source src="https://files.catbox.moe/nbcrtd.mp4" type="video/mp4">
-</video>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=RWuj1KVRank" target="_blank">
+ <img src="http://img.youtube.com/vi/RWuj1KVRank/mqdefault.jpg" alt="Watch the video" width="400" height="auto" border="10" />
+</a>
+
 </div>
 
 ***
@@ -75,3 +76,4 @@ Auto VIT Wi-Fi is licensed under the [GPL-3.0 License](LICENSE)
 - Logo: [Freepik](https://www.freepik.com/icons)
 
 - Based on [pronto-auto-login](https://github.com/cybergla/pronto-auto-login/)
+
